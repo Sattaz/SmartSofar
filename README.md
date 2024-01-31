@@ -11,7 +11,7 @@ Thanks a lot to them for their support!
 The electronic circuit to be realized is exactly the same as the one described by mister cmcgerty on his GitHub.
 
 
-Version 1.0 (Jan-2024)
+__Version 1.0 (Jan-2024)__  
 * Multi-Sofar chargers handling
 * Shelly 3M Pro Energy Meter integration, used in automated mode to adjust the power
 * Reads all Sofar registers in one go making read cycle very quick (thx to Irek for sharing his solution!)
@@ -21,11 +21,10 @@ Version 1.0 (Jan-2024)
 * Adjust power (Charge/Discharge) by slider and Standby on the Web interface in Manual mode
 * Retains last enabled mode in esp eprom
 * Live ESP logs accessible from the Web interface
-* JSON data accessible via CURL:http://xxx.xxx.xxx.xxx/data.json
-* CURL commands to set standby/charge/discharge commands:
-
-  http://xxx.xxx.xxx.xxx/update?cmd=setmode&val=x (x=0 for Mode Manu, x=1 for Mode Auto)
-  
+* JSON data accessible via CURL:
+  http://xxx.xxx.xxx.xxx/data.json
+* CURL commands to set standby/charge/discharge commands:  
+  http://xxx.xxx.xxx.xxx/update?cmd=setmode&val=x (x=0 for Mode Manu, x=1 for Mode Auto)  
   http://xxx.xxx.xxx.xxx/update?cmd=setpower&val=x (x=0 to set Standby, x>0 to charge to xW, x<0 to discharge to xW)
 * Comparison of x numbers of EM Shelly measurements (to be defined in the parameters) before placing an automatic adjustment command when the measured power is below a threshold (also to be defined in the parameters)
 
