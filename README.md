@@ -10,4 +10,4 @@ Thanks a lot to them for their support!
 
 The electronic circuit to be realized is exactly the same as the one described by mister cmcgerty on his GitHub.
 
-![SmartSofar](https://sattaz.github.io/SmartSofar/Pictures/SmartSofar.jpg)
+![SmartSofar](https://github.com/Sattaz/SmartSofar/blob/main/Pictures/SmartSofar.jpg)
