@@ -26,13 +26,10 @@ __Version 1.0 (Jan-2024)__
 * CURL to set mode, standby/charge/discharge commands:  
   http://xxx.xxx.xxx.xxx/update?cmd=setmode&val=x (x=0 for Mode Manu, x=1 for Mode Auto)  
   http://xxx.xxx.xxx.xxx/update?cmd=setpower&val=x (x=0 to set Standby, x>0 to charge to xW, x<0 to discharge to xW)
-* Comparison of x numbers of EM Shelly measurements (to be defined in the parameters) before placing an automatic adjustment command when the measured power is below a threshold (also to be defined in the parameters)
-
-This because with low power the Shelly Energy Meter is not the most precise.
-
-If the difference between the x numbers of concecutive power measurements is below a threshold (also to be defined) then the system adjusts.
-
-With a power measurement greater than the defined threshold, the system adjusts from the first measurement.
+* Comparison of x numbers of EM Shelly measurements (to be defined in the parameters) before placing an automatic adjustment command when the measured power is below a threshold (also to be defined in the parameters)  
+  This because with low power the Shelly Energy Meter is not the most precise.  
+  If the difference between the x numbers of concecutive power measurements is below a threshold (also to be defined) then the system adjusts.  
+  With a power measurement greater than the defined threshold, the system adjusts from the first measurement.
 * NOT YET implemented : initial settings from SD-CARD and adjusting parameter settings from the Web interface
 * NOT YET implemented : MQTT Server (maybe using TinyMqtt) to host data and set charge/discharge/standby commands.
 
