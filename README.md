@@ -36,4 +36,4 @@ __Version 1.0 (Jan-2024)__
 
 Any help is welcome to continue the development !
 
-![SmartSofar](https://github.com/Sattaz/SmartSofar/blob/main/Pictures/SmartSofar.jpg)
+<p align="center" width="100%">![SmartSofar](https://github.com/Sattaz/SmartSofar/blob/main/Pictures/SmartSofar.jpg)</p>
