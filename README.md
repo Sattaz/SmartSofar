@@ -21,7 +21,7 @@ __Version 1.0 (Jan-2024)__
 * Adjust power (Charge/Discharge) by slider and Standby on the Web interface in Manual mode
 * Retains last enabled mode in esp eprom
 * Live ESP logs accessible from the Web interface
-* JSON data accessible via CURL:
+* JSON data accessible via CURL:  
   http://xxx.xxx.xxx.xxx/data.json
 * CURL commands to set standby/charge/discharge commands:  
   http://xxx.xxx.xxx.xxx/update?cmd=setmode&val=x (x=0 for Mode Manu, x=1 for Mode Auto)  
